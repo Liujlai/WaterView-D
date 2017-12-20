@@ -12,9 +12,15 @@
 		78238B151FEA0A2700CE4F3A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78238B131FEA0A2700CE4F3A /* Main.storyboard */; };
 		78238B171FEA0A2700CE4F3A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78238B161FEA0A2700CE4F3A /* Assets.xcassets */; };
 		78238B1A1FEA0A2700CE4F3A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78238B181FEA0A2700CE4F3A /* LaunchScreen.storyboard */; };
+		78238B221FEA0EE200CE4F3A /* YYWaterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78238B211FEA0EE200CE4F3A /* YYWaterView.swift */; };
+		78238B241FEA0F3600CE4F3A /* CGFloat+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78238B231FEA0F3600CE4F3A /* CGFloat+Extension.swift */; };
+		78238B271FEA0F9E00CE4F3A /* YYViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78238B251FEA0F9E00CE4F3A /* YYViewController.swift */; };
+		78238B281FEA0F9E00CE4F3A /* YYViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 78238B261FEA0F9E00CE4F3A /* YYViewController.xib */; };
+		8197FF08936E5B23E020133D /* Pods_WaterView_D.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3F1C21CA4AEB75674FCB7C6 /* Pods_WaterView_D.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		460C727E44C9E0AF325DA754 /* Pods-WaterView_D.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WaterView_D.release.xcconfig"; path = "Pods/Target Support Files/Pods-WaterView_D/Pods-WaterView_D.release.xcconfig"; sourceTree = "<group>"; };
 		78238B0C1FEA0A2700CE4F3A /* WaterView_D.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WaterView_D.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		78238B0F1FEA0A2700CE4F3A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		78238B111FEA0A2700CE4F3A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +28,12 @@
 		78238B161FEA0A2700CE4F3A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		78238B191FEA0A2700CE4F3A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		78238B1B1FEA0A2700CE4F3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		78238B211FEA0EE200CE4F3A /* YYWaterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YYWaterView.swift; sourceTree = "<group>"; };
+		78238B231FEA0F3600CE4F3A /* CGFloat+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGFloat+Extension.swift"; sourceTree = "<group>"; };
+		78238B251FEA0F9E00CE4F3A /* YYViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YYViewController.swift; sourceTree = "<group>"; };
+		78238B261FEA0F9E00CE4F3A /* YYViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = YYViewController.xib; sourceTree = "<group>"; };
+		B3F1C21CA4AEB75674FCB7C6 /* Pods_WaterView_D.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WaterView_D.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8EE73B7A139C52C2DD025B0 /* Pods-WaterView_D.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WaterView_D.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WaterView_D/Pods-WaterView_D.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +41,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8197FF08936E5B23E020133D /* Pods_WaterView_D.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +53,8 @@
 			children = (
 				78238B0E1FEA0A2700CE4F3A /* WaterView_D */,
 				78238B0D1FEA0A2700CE4F3A /* Products */,
+				C5C916EC3F12C3BF56FFFA91 /* Pods */,
+				8670E74D7656E3E9DCCBBEC4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,6 +69,10 @@
 		78238B0E1FEA0A2700CE4F3A /* WaterView_D */ = {
 			isa = PBXGroup;
 			children = (
+				78238B211FEA0EE200CE4F3A /* YYWaterView.swift */,
+				78238B251FEA0F9E00CE4F3A /* YYViewController.swift */,
+				78238B261FEA0F9E00CE4F3A /* YYViewController.xib */,
+				78238B231FEA0F3600CE4F3A /* CGFloat+Extension.swift */,
 				78238B0F1FEA0A2700CE4F3A /* AppDelegate.swift */,
 				78238B111FEA0A2700CE4F3A /* ViewController.swift */,
 				78238B131FEA0A2700CE4F3A /* Main.storyboard */,
@@ -64,6 +83,23 @@
 			path = WaterView_D;
 			sourceTree = "<group>";
 		};
+		8670E74D7656E3E9DCCBBEC4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B3F1C21CA4AEB75674FCB7C6 /* Pods_WaterView_D.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C5C916EC3F12C3BF56FFFA91 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D8EE73B7A139C52C2DD025B0 /* Pods-WaterView_D.debug.xcconfig */,
+				460C727E44C9E0AF325DA754 /* Pods-WaterView_D.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -71,9 +107,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 78238B1E1FEA0A2700CE4F3A /* Build configuration list for PBXNativeTarget "WaterView_D" */;
 			buildPhases = (
+				7B32B2AC259B8C695C42927B /* [CP] Check Pods Manifest.lock */,
 				78238B081FEA0A2700CE4F3A /* Sources */,
 				78238B091FEA0A2700CE4F3A /* Frameworks */,
 				78238B0A1FEA0A2700CE4F3A /* Resources */,
+				5320DF79BECC5C803318F749 /* [CP] Embed Pods Frameworks */,
+				294B2DB51A34AD9B701456A6 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -125,11 +164,66 @@
 			files = (
 				78238B1A1FEA0A2700CE4F3A /* LaunchScreen.storyboard in Resources */,
 				78238B171FEA0A2700CE4F3A /* Assets.xcassets in Resources */,
+				78238B281FEA0F9E00CE4F3A /* YYViewController.xib in Resources */,
 				78238B151FEA0A2700CE4F3A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		294B2DB51A34AD9B701456A6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WaterView_D/Pods-WaterView_D-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5320DF79BECC5C803318F749 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-WaterView_D/Pods-WaterView_D-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/YXWaveView/YXWaveView.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YXWaveView.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WaterView_D/Pods-WaterView_D-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7B32B2AC259B8C695C42927B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WaterView_D-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		78238B081FEA0A2700CE4F3A /* Sources */ = {
@@ -137,6 +231,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				78238B121FEA0A2700CE4F3A /* ViewController.swift in Sources */,
+				78238B221FEA0EE200CE4F3A /* YYWaterView.swift in Sources */,
+				78238B271FEA0F9E00CE4F3A /* YYViewController.swift in Sources */,
+				78238B241FEA0F3600CE4F3A /* CGFloat+Extension.swift in Sources */,
 				78238B101FEA0A2700CE4F3A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -272,6 +369,7 @@
 		};
 		78238B1F1FEA0A2700CE4F3A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8EE73B7A139C52C2DD025B0 /* Pods-WaterView_D.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -286,6 +384,7 @@
 		};
 		78238B201FEA0A2700CE4F3A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 460C727E44C9E0AF325DA754 /* Pods-WaterView_D.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
